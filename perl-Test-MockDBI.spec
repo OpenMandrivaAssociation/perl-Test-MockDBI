@@ -9,6 +9,7 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://search.cpan.org/CPAN/authors/id/A/AF/AFF/%{upstream_name}-%{upstream_version}.tar.gz
+BuildRequires:	make
 BuildRequires:  perl
 BuildRequires:  perl-devel
 BuildRequires:  perl(DBI)
